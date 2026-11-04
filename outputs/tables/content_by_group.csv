@@ -1,0 +1,10 @@
+account_type,content_category_label,sample_videos,sample_channels,median_views,valid_engagement_videos,median_engagement_rate
+AI-presented,Case stories,1,1,2282456.0,1,0.020938410203745438
+AI-presented,Fictional legal stories,301,8,315329.0,256,0.021620205368450773
+AI-presented,News and commentary,10,1,122304.0,10,0.029261573086348594
+AI-presented,Legal education,82,2,6480.5,81,0.026916373143541887
+Lawyer-led,Case stories,95,14,2524792.0,95,0.03566682578797301
+Lawyer-led,Entertainment and challenges,34,4,1178082.5,34,0.03949299602899521
+Lawyer-led,Courtroom coverage,64,4,996150.5,64,0.02831797154792868
+Lawyer-led,Legal education,323,15,981890.0,318,0.035037444423531725
+Lawyer-led,News and commentary,431,17,534284.0,426,0.039183099595716676

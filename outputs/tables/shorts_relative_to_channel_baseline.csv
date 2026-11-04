@@ -1,0 +1,36 @@
+account_type,channel_id,channel_name,content_category_label,category_videos,category_valid_views,category_median_views,category_valid_engagement,category_median_engagement,baseline_videos,baseline_median_views,baseline_valid_engagement,baseline_median_engagement,relative_views,engagement_difference_pp,sample_note
+AI-presented,UC5a3rXqjSvk--lO091G45GA,Worldwide Court,Fictional legal stories,50,50,1213309.0,50,0.024657449240778166,50,1213309.0,50,0.024657449240778166,1.0,0.0,
+AI-presented,UCBUu4wG5ubyWy6-cg0GHIwg,Agente Davis,Case stories,1,1,2282456.0,1,0.020938410203745438,25,179497.0,25,0.012790941497169217,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+AI-presented,UCBUu4wG5ubyWy6-cg0GHIwg,Agente Davis,Fictional legal stories,3,3,129687.0,3,0.014717738748280822,25,179497.0,25,0.012790941497169217,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+AI-presented,UCBUu4wG5ubyWy6-cg0GHIwg,Agente Davis,Legal education,17,17,179497.0,17,0.011587875830168261,25,179497.0,25,0.012790941497169217,1.0,-0.1203065667000956,
+AI-presented,UCBUu4wG5ubyWy6-cg0GHIwg,Agente Davis,News and commentary,4,4,170499.0,4,0.012796811207171108,25,179497.0,25,0.012790941497169217,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+AI-presented,UCD1GF-Hti10pSSX5X-yDgSQ,Law Dose,Fictional legal stories,50,50,95870.0,50,0.011402096952434146,50,95870.0,50,0.011402096952434146,1.0,0.0,
+AI-presented,UCPX_r8TZ2SRSaXfXfJtO83g,Your Verdict HQ,Fictional legal stories,50,50,637492.0,50,0.024163116885646534,50,637492.0,50,0.024163116885646534,1.0,0.0,
+AI-presented,UCZGvTD-QalD-hkPajZe_Knw,𝐂𝐨𝐮𝐫𝐭𝐬 𝐅𝐢𝐥𝐞𝐬,Fictional legal stories,1,1,2345.0,1,0.02046908315565032,1,2345.0,1,0.02046908315565032,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+AI-presented,UCrz57rpNvlODzdo5yx3J1tw,Justice Stories AI,Fictional legal stories,50,50,246861.5,5,0.019964659651343725,50,246861.5,5,0.019964659651343725,1.0,0.0,
+AI-presented,UCv_sdV0_brOuxKHEg776rwA,CourtOnCam,Fictional legal stories,47,47,27764.0,47,0.010769230769230769,50,27623.5,50,0.01073022381879758,1.0050862490270964,0.0039006950433188164,
+AI-presented,UCvxD6RbQpMUBE57BS1Kvh1w,Court Verdict,Fictional legal stories,50,50,63045.5,50,0.026327407754353806,50,63045.5,50,0.026327407754353806,1.0,0.0,
+Lawyer-led,UC-tiIY3wFNwdFakCf_Ohysg,Charles Buist - Personal Injury Lawyer,Case stories,5,5,221730.0,5,0.039475615124981656,49,81007.0,47,0.031700880399749075,2.7371708617773773,0.777473472523258,
+Lawyer-led,UC-tiIY3wFNwdFakCf_Ohysg,Charles Buist - Personal Injury Lawyer,Legal education,6,6,57861.0,6,0.03282852714777962,49,81007.0,47,0.031700880399749075,0.7142716061574925,0.11276467480305433,
+Lawyer-led,UC-tiIY3wFNwdFakCf_Ohysg,Charles Buist - Personal Injury Lawyer,News and commentary,38,38,81324.0,36,0.029834218634977497,49,81007.0,47,0.031700880399749075,1.0039132420655006,-0.1866661764771578,
+Lawyer-led,UC04RYGK0kWq2GJH7uKuvdFg,Mike Rafi - Personal Injury Lawyer,Case stories,7,7,11383823.0,7,0.049186730489353715,50,9402448.0,49,0.04199007470372133,1.210729695075155,0.7196655785632382,
+Lawyer-led,UC04RYGK0kWq2GJH7uKuvdFg,Mike Rafi - Personal Injury Lawyer,Legal education,14,14,9301006.0,13,0.04056071122812067,50,9402448.0,49,0.04199007470372133,0.9892111075753889,-0.1429363475600666,
+Lawyer-led,UC04RYGK0kWq2GJH7uKuvdFg,Mike Rafi - Personal Injury Lawyer,News and commentary,4,4,8260280.5,4,0.051511158322969916,50,9402448.0,49,0.04199007470372133,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UC4M5RxIcp5H9lRiVC33TwFA,Tom Grieve,Legal education,3,3,3324035.0,3,0.02529191907509277,11,506290.0,11,0.05854890491318306,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UC4M5RxIcp5H9lRiVC33TwFA,Tom Grieve,News and commentary,8,8,506118.5,8,0.06791277284134899,11,506290.0,11,0.05854890491318306,0.9996612613324379,0.9363867928165924,
+Lawyer-led,UCHT1F0HfxxsssYzJ8onNpLA,"Tyler Chou, The Creators' Attorney",Entertainment and challenges,1,1,9323.0,1,0.03185669848761128,15,11103.0,15,0.03906053755337855,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UCHT1F0HfxxsssYzJ8onNpLA,"Tyler Chou, The Creators' Attorney",Legal education,3,3,18392.0,3,0.038223140495867766,15,11103.0,15,0.03906053755337855,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UCHT1F0HfxxsssYzJ8onNpLA,"Tyler Chou, The Creators' Attorney",News and commentary,11,11,11103.0,11,0.044762676754030443,15,11103.0,15,0.03906053755337855,1.0,0.5702139200651892,
+Lawyer-led,UCKmmERguliWTynG9OIoDhDw,Law By Mike,Case stories,2,2,113310393.0,2,0.02344478273673309,50,94385992.5,50,0.028951592769687236,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UCKmmERguliWTynG9OIoDhDw,Law By Mike,Entertainment and challenges,11,11,107108872.0,11,0.023464597108684707,50,94385992.5,50,0.028951592769687236,1.1347962675711654,-0.5486995661002528,
+Lawyer-led,UCKmmERguliWTynG9OIoDhDw,Law By Mike,Legal education,29,29,87909102.0,29,0.036457759133575705,50,94385992.5,50,0.028951592769687236,0.931378689480857,0.7506166363888469,
+Lawyer-led,UCKwsC0eqm1rXRxuudFhYDcg,Ugo Lord: The Modern Attorney,Legal education,50,50,14396077.0,49,0.04174568605696871,50,14396077.0,49,0.04174568605696871,1.0,0.0,
+Lawyer-led,UCcth5uVYORmu5Cu15ZjpzuQ,The Civil Rights Lawyer,Case stories,14,14,4618782.0,14,0.049565511463549136,18,4623692.0,18,0.047082509125556934,0.9989380780553722,0.24830023379922017,
+Lawyer-led,UCcth5uVYORmu5Cu15ZjpzuQ,The Civil Rights Lawyer,News and commentary,4,4,4916740.0,4,0.04031970115060564,18,4623692.0,18,0.047082509125556934,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UCemneOi1pnsFpkdAQEC_NcA,Attorney Ryan,Case stories,8,8,1047187.5,8,0.044400485919066736,50,1188204.5,50,0.04831020399668684,0.8813192510211837,-0.39097180776201046,
+Lawyer-led,UCemneOi1pnsFpkdAQEC_NcA,Attorney Ryan,Legal education,30,30,1166304.5,30,0.04841125859033879,50,1188204.5,50,0.04831020399668684,0.9815688292713922,0.010105459365195024,
+Lawyer-led,UCemneOi1pnsFpkdAQEC_NcA,Attorney Ryan,News and commentary,2,2,793382.0,2,0.049452980080898136,50,1188204.5,50,0.04831020399668684,,,Fewer than 5 view observations；Fewer than 5 engagement observations
+Lawyer-led,UCpa-Zb0ZcQjTCPP1Dx_1M8Q,LegalEagle,News and commentary,12,12,6060152.0,12,0.05370087624533598,14,5861773.5,14,0.05494710961495572,1.0338427440091296,-0.1246233369619737,
+Lawyer-led,UCyjLtNOpUsPzJcudxNYpoaQ,AttorneyTom,Entertainment and challenges,8,8,574254.0,8,0.04802455675202973,19,989846.0,19,0.04427897728084079,0.5801447901996877,0.3745579471188941,
+Lawyer-led,UCyjLtNOpUsPzJcudxNYpoaQ,AttorneyTom,Legal education,10,10,2046454.5,10,0.041538758688915864,19,989846.0,19,0.04427897728084079,2.0674473604985018,-0.27402185919249283,
+Lawyer-led,UCz0HITWbcUYEHi3TZXTyFrw,CLR Bruce Rivers,News and commentary,2,2,1488406.0,2,0.040180051372020464,2,1488406.0,2,0.040180051372020464,,,Fewer than 5 view observations；Fewer than 5 engagement observations

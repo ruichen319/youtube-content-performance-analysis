@@ -1,0 +1,16 @@
+account_type,video_type,content_category_label,sample_videos,sample_channels,median_views,valid_engagement_videos,median_engagement_rate
+AI-presented,Long-form,Legal education,65,2,1689.0,64,0.032547813838057
+AI-presented,Long-form,News and commentary,6,1,100765.0,6,0.03514835615759012
+AI-presented,Shorts,Case stories,1,1,2282456.0,1,0.020938410203745438
+AI-presented,Shorts,Fictional legal stories,301,8,315329.0,256,0.021620205368450773
+AI-presented,Shorts,Legal education,17,1,179497.0,17,0.011587875830168261
+AI-presented,Shorts,News and commentary,4,1,170499.0,4,0.012796811207171108
+Lawyer-led,Long-form,Case stories,59,11,1392153.0,59,0.03135164578632013
+Lawyer-led,Long-form,Courtroom coverage,64,4,996150.5,64,0.02831797154792868
+Lawyer-led,Long-form,Entertainment and challenges,14,3,989579.5,14,0.041256497238446946
+Lawyer-led,Long-form,Legal education,178,10,182805.5,175,0.027313553326666174
+Lawyer-led,Long-form,News and commentary,350,14,583528.5,347,0.03885902341432745
+Lawyer-led,Shorts,Case stories,36,5,4300543.5,36,0.04442009541007855
+Lawyer-led,Shorts,Entertainment and challenges,20,3,82701307.0,20,0.030373757649136246
+Lawyer-led,Shorts,Legal education,145,8,12079075.0,143,0.04174568605696871
+Lawyer-led,Shorts,News and commentary,81,8,296694.0,79,0.041091909555448884

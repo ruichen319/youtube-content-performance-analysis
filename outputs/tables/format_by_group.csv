@@ -1,0 +1,5 @@
+account_type,video_type,sample_videos,sample_channels,median_views,valid_engagement_videos,median_engagement_rate
+AI-presented,Long-form,71,2,2211.0,70,0.03323589589709179
+AI-presented,Shorts,330,9,256624.0,285,0.021062187598936997
+Lawyer-led,Long-form,672,16,603001.5,666,0.03365951549866884
+Lawyer-led,Shorts,328,11,7115579.0,324,0.04137882009001301

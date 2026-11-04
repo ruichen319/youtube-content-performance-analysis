@@ -1,0 +1,9 @@
+content_category_label,sample_videos,sample_channels,median_views,valid_engagement_videos,median_engagement_rate,scenario
+Case stories,36,5,4300543.5,36,0.04442009541007855,All channels
+Entertainment and challenges,20,3,82701307.0,20,0.030373757649136246,All channels
+Legal education,145,8,12079075.0,143,0.04174568605696871,All channels
+News and commentary,81,8,296694.0,79,0.041091909555448884,All channels
+Case stories,34,4,4142003.0,34,0.044835811750531154,Exclude Law By Mike
+Entertainment and challenges,9,2,446142.0,9,0.04755782597676995,Exclude Law By Mike
+Legal education,116,7,9609944.5,114,0.04331282856538519,Exclude Law By Mike
+News and commentary,81,8,296694.0,79,0.041091909555448884,Exclude Law By Mike
