@@ -1,0 +1,12 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.git/
+*.log
