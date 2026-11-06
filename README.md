@@ -40,7 +40,7 @@ Each row represents a video. Engagement summaries are medians of available video
 
 **Education and case stories retain substantial views after that exclusion.** Legal education has 9.61M median views and 4.33% median engagement (116 videos, seven channels); case stories have 4.14M and 4.48% (34 videos, four channels). These support parallel topic tests, without proving a topic effect.
 
-**AI factual-content evidence is limited.** AI education Shorts contain 17 videos from one channel; case stories contain just one video from one channel. The larger sample—301 fictional legal/police Shorts across eight channels—does not validate factual case storytelling.
+**AI case stories provide a high-view signal for an exploratory pilot.** The directly labeled AI Shorts case-story sample has 2.28M median views and 2.09% median engagement (one video, one channel), versus 179.5K and 1.16% for legal education (17 videos, one channel). Case stories have the highest reported median views among the AI Shorts categories; engagement is close to, but below, fictional legal/police stories at 2.16% (315.3K median views; 301 videos, eight channels). This supports prioritizing a case-story pilot, not claiming a repeatable topic advantage. Fictional stories remain separate and do not validate factual case storytelling.
 
 ## Proposed next steps
 
@@ -48,9 +48,9 @@ Each row represents a video. Engagement summaries are medians of available video
 
 1. **Lawyer-hosted legal education:** test concise explanations of legal questions and processes.
 2. **Lawyer-hosted case stories:** test case narratives alongside education as a separate topic route.
-3. **AI-presented legal education:** run an exploratory pilot using the same topic as account 1. The one-channel education sample provides limited evidence, not an established benchmark.
+3. **AI-presented case stories:** test legal case narratives using AI presentation. The existing sample's 2.28M median views and 2.09% median engagement support an exploratory pilot; the evidence is only one labeled video from one channel and requires validation before scaling.
 
-Defer AI-presented factual case stories because the directly labeled sample contains only one video. Before production, review source material and provisional topic labels. Compare pilot views and engagement at equal video ages, tracking each account separately before deciding continued production. Separate accounts do not isolate a causal AI effect.
+Treat account 3 as a validation test: expand the directly labeled case-story sample and assess whether the signal holds beyond one video and one channel. Before production, review source material and provisional topic labels. Compare pilot views and engagement at equal video ages, tracking each account separately before deciding continued production. Separate accounts do not isolate a causal AI effect.
 
 These are proposed tests; none has been run. A Tableau dashboard is planned, not completed.
 
