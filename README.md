@@ -4,7 +4,8 @@ Analyzed 1,401 videos across 29 public YouTube channels to recommend three initi
 
 [Presentation PDF](presentation/youtube-content-performance-analysis.pdf) · [Python analysis](src/analyze.py) · [Analysis notebook](notebooks/youtube_analysis.ipynb) · [Creator sensitivity chart](outputs/figures/channel_sensitivity.svg) · [Data and methodology](docs/data_and_methodology.md)
 
-The recommendations below reflect the final presentation and Tableau analysis. The methodology guide retains earlier pilot proposals.
+The recommendations below reflect the final presentation and Tableau analysis.
+
 ## Business question
 
 **Which three YouTube accounts should the client test first?**
@@ -103,7 +104,7 @@ The included snapshot supports offline reproduction without an API key. Review r
 ## Limitations
 
 - The historical high-view sample describes past hits. Performance on new channels remains uncertain.
-- Creator concentration matters. After excluding Law By Mike, removing the channel with the most sampled videos in each topic reduces median views from 9.61M to 1.31M for Legal Education and from 4.14M to 1.87M for Case Stories. One channel supplied 12 of the 20 qualifying News / Commentary videos.
+- Creator concentration matters. After excluding Law By Mike, removing the channel with the most sampled videos in each topic reduces median views from 9.61M to 1.31M for Legal Education and from 4.14M to 1.87M for Case Stories. One channel supplied 12 of the 20 qualifying News / Commentary videos. Excluding that channel leaves eight qualifying videos across two channels.
 - The joint benchmark comes from one AI case story. At alternative cutoffs of 1M views and 2% engagement, AI fiction has 51 qualifying videos and News / Commentary has 24. The third-pilot choice prioritizes observed engagement and depends on how the benchmarks are set.
 - Video age, audience, language, and creator differences remain.
 - Presentation groups reflect public descriptions, not independent credential or synthetic-media verification.
