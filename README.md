@@ -2,10 +2,9 @@
 
 Analyzed 1,401 videos across 29 public YouTube channels to recommend three initial Shorts account tests based on format performance, content topics, and the strength of the available evidence.
 
-[Archived presentation PDF](presentation/youtube-content-performance-analysis.pdf) · [Python analysis](src/analyze.py) · [Analysis notebook](notebooks/youtube_analysis.ipynb) · [Creator sensitivity chart](outputs/figures/channel_sensitivity.svg) · [Data and methodology](docs/data_and_methodology.md)
+[Presentation PDF](presentation/youtube-content-performance-analysis.pdf) · [Python analysis](src/analyze.py) · [Analysis notebook](notebooks/youtube_analysis.ipynb) · [Creator sensitivity chart](outputs/figures/channel_sensitivity.svg) · [Data and methodology](docs/data_and_methodology.md)
 
-The recommendations below reflect the final presentation and Tableau analysis. The archived PDF and methodology guide retain earlier pilot proposals.
-
+The recommendations below reflect the final presentation and Tableau analysis. The methodology guide retains earlier pilot proposals.
 ## Business question
 
 **Which three YouTube accounts should the client test first?**
