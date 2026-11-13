@@ -67,6 +67,8 @@ Record cumulative views and engagement rate seven days after each Short goes liv
 
 ## Tableau dashboards
 
+[Download Tableau workbook (.twbx)](presentation/tableau-dashboards.twbx) and open it in Tableau to explore both dashboards.
+
 - **YouTube Account Test Priorities** compares formats and Shorts topics and presents the first two pilot recommendations.
 - **Choosing the Third Shorts Pilot** compares the four candidates and shows the video-level views and engagement behind the third recommendation.
 
