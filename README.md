@@ -2,7 +2,9 @@
 
 Analyzed 1,401 videos across 29 public YouTube channels to recommend three initial Shorts account tests based on format performance, content topics, and the strength of the available evidence.
 
-[Presentation PDF](presentation/youtube-content-performance-analysis.pdf) · [Python analysis](src/analyze.py) · [Analysis notebook](notebooks/youtube_analysis.ipynb) · [Creator sensitivity chart](outputs/figures/channel_sensitivity.svg) · [Data and methodology](docs/data_and_methodology.md)
+[Archived presentation PDF](presentation/youtube-content-performance-analysis.pdf) · [Python analysis](src/analyze.py) · [Analysis notebook](notebooks/youtube_analysis.ipynb) · [Creator sensitivity chart](outputs/figures/channel_sensitivity.svg) · [Data and methodology](docs/data_and_methodology.md)
+
+The recommendations below reflect the final presentation and Tableau analysis. The archived PDF and methodology guide retain earlier pilot proposals.
 
 ## Business question
 
@@ -23,6 +25,7 @@ Two presentation groups are compared separately:
 4. Compare formats within channels with at least five sampled videos in each format; require five valid engagement observations for engagement comparisons.
 5. Remove Law By Mike and recalculate lawyer-hosted Shorts topic medians to check dependence on that creator.
 6. Compare each Shorts topic with its channel's overall Shorts median, suppressing view ratios for topics with fewer than five valid observations.
+7. For the third pilot, compare four Shorts candidates after excluding Law By Mike. Count videos meeting both the view and engagement thresholds, then check how many channels contributed qualifying videos.
 
 Python/pandas techniques include validated joins, grouped aggregation, reshaping, missing-value handling, sensitivity analysis, and within-channel benchmarks. Engagement differences use percentage points.
 
@@ -40,19 +43,33 @@ Each row represents a video. Engagement summaries are medians of available video
 
 **Education and case stories retain substantial views after that exclusion.** Legal education has 9.61M median views and 4.33% median engagement (116 videos, seven channels); case stories have 4.14M and 4.48% (34 videos, four channels). These support parallel topic tests, without proving a topic effect.
 
-**AI case stories provide a high-view signal for an exploratory pilot.** The directly labeled AI Shorts case-story sample has 2.28M median views and 2.09% median engagement (one video, one channel), versus 179.5K and 1.16% for legal education (17 videos, one channel). Case stories have the highest reported median views among the AI Shorts categories; engagement is close to, but below, fictional legal/police stories at 2.16% (315.3K median views; 301 videos, eight channels). This supports prioritizing a case-story pilot, not claiming a repeatable topic advantage. Fictional stories remain separate and do not validate factual case storytelling.
+## Choosing the third Shorts pilot
+
+**Lawyer-led News / Commentary is the third pilot because it combines 4.11% median engagement with the most videos meeting both benchmarks among the four shortlisted candidates.** It had 296,694 median views and 81 videos across eight channels. Of the 79 videos with measurable engagement, 20 met both benchmarks, across three channels.
+
+| Candidate | Median views | Median engagement | Sample videos / channels | Qualified / measurable videos | Qualifying channels |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| AI-presented Case Stories | 2,282,456 | 2.09% | 1 / 1 | 1 / 1 | 1 |
+| AI-presented Fictional Legal Stories | 315,329 | 2.16% | 301 / 8 | 14 / 256 | 4 |
+| Lawyer-led Entertainment | 446,142 | 4.76% | 9 / 2 | 1 / 9 | 1 |
+| **Lawyer-led News / Commentary** | **296,694** | **4.11%** | **81 / 8** | **20 / 79** | **3** |
+
+The comparison includes Shorts only and excludes Law By Mike. All 392 videos count toward sample size and median views. The 345 videos with measurable engagement are used for median engagement and benchmark comparisons. A video qualified if it reached both cutoffs set by the one observed AI-presented case story, approximately 2.28M views and 2.09% engagement. The counts use the unrounded values.
+
+AI-presented Fictional Legal Stories had slightly higher median views and qualifying videos from four channels, compared with three for News / Commentary. News / Commentary had higher median engagement and more qualifying videos at the selected cutoffs. Entertainment had the highest median engagement, with nine sampled videos across two channels and one qualifying video. The AI-presented Case Stories row contains a single video from a single channel.
 
 ## Proposed next steps
 
-**Prioritize three Shorts accounts for the initial test:**
+1. **Lawyer-led Legal Education.** Answer recurring legal questions and explain practical next steps.
+2. **Lawyer-led Case Stories.** Retell completed cases and explain their outcomes.
+3. **Lawyer-led News / Commentary.** Explain current legal news and recent case developments.
 
-1. **Lawyer-hosted legal education:** test concise explanations of legal questions and processes.
-2. **Lawyer-hosted case stories:** test case narratives alongside education as a separate topic route.
-3. **AI-presented case stories:** test legal case narratives using AI presentation. The existing sample's 2.28M median views and 2.09% median engagement support an exploratory pilot; the evidence is only one labeled video from one channel and requires validation before scaling.
+Record cumulative views and engagement rate seven days after each Short goes live. Compare results across the three pilots before scaling.
 
-Treat account 3 as a validation test: expand the directly labeled case-story sample and assess whether the signal holds beyond one video and one channel. Before production, review source material and provisional topic labels. Compare pilot views and engagement at equal video ages, tracking each account separately before deciding continued production. Separate accounts do not isolate a causal AI effect.
+## Tableau dashboards
 
-These are proposed tests; none has been run. A Tableau dashboard is planned, not completed.
+- **YouTube Account Test Priorities** compares formats and Shorts topics and presents the first two pilot recommendations.
+- **Choosing the Third Shorts Pilot** compares the four candidates and shows the video-level views and engagement behind the third recommendation.
 
 ## Repository structure
 
@@ -84,7 +101,9 @@ The included snapshot supports offline reproduction without an API key. Review r
 
 ## Limitations
 
-- Historical hits do not represent typical uploads or new-account expectations.
+- The historical high-view sample describes past hits. Performance on new channels remains uncertain.
+- Creator concentration matters. After excluding Law By Mike, removing the channel with the most sampled videos in each topic reduces median views from 9.61M to 1.31M for Legal Education and from 4.14M to 1.87M for Case Stories. One channel supplied 12 of the 20 qualifying News / Commentary videos.
+- The joint benchmark comes from one AI case story. At alternative cutoffs of 1M views and 2% engagement, AI fiction has 51 qualifying videos and News / Commentary has 24. The third-pilot choice prioritizes observed engagement and depends on how the benchmarks are set.
 - Video age, audience, language, and creator differences remain.
 - Presentation groups reflect public descriptions, not independent credential or synthetic-media verification.
 - Metadata-based labels require human review. Public metrics do not establish retention, conversions, revenue, or causal effects.
