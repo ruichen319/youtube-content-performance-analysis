@@ -38,11 +38,19 @@ The taxonomy separates legal education, case stories, news/commentary, courtroom
 
 Shorts labels use recorded platform-tab evidence; some long-form labels use the recorded duration-exclusion method. The public package preserves these decisions and does not infer Shorts merely from a short duration or hashtag.
 
+## Shorts pilot selection
+
+The three proposed Shorts pilots are **Lawyer-led Legal Education**, **Lawyer-led Case Stories**, and **Lawyer-led News / Commentary**.
+
+The third-pilot comparison covers four candidates and excludes Law By Mike. All 392 sampled Shorts count toward sample size and median views. The 345 with measurable engagement count toward median engagement and the benchmark comparison. To qualify, a video had to reach both thresholds set by the single observed AI-presented case story: 2,282,456 views and an engagement rate of `47,791 / 2,282,456` (about 2.09%). The comparison uses the unrounded rate.
+
+News / Commentary was selected for its 4.11% median engagement and the highest count of videos meeting both benchmarks. It had 296,694 median views and 81 sampled videos across eight channels. Of 79 videos with measurable engagement, 20 met both benchmarks across three channels. AI-presented Fictional Legal Stories had 2.16% median engagement, with 14 of 256 measurable videos qualifying across four channels. Lawyer-led Entertainment had the highest median engagement (4.76%), with one of nine videos qualifying. Its sample covered two channels. The sole AI-presented Case Stories video met both thresholds by definition.
+
+The sample favors historical high-view videos. One channel supplied 12 of the 20 qualifying News / Commentary videos. Excluding that channel leaves eight qualifying videos across two channels. At alternative cutoffs of 1M views and 2% engagement, 51 AI-presented Fictional Legal Stories videos and 24 News / Commentary videos meet both thresholds. Record cumulative views and engagement rate seven days after each pilot Short goes live and compare across pilots before scaling.
+
 ## Interpretation and sources
 
-Public metrics do not expose audience retention, unique viewers, link clicks, qualified leads, or conversions. The analysis makes no claims about those outcomes. This anonymized release includes three proposed account tests: lawyer-hosted legal education, lawyer-hosted case stories, and AI-presented legal education. The commissioning organization, its specific business scope, and internal documents remain outside the public package. No pilot has been run.
-
-The third account is exploratory: the AI education Shorts sample contains only 17 videos from one channel. AI case stories contain one video from one channel. The separate fictional-story sample contains 301 videos across eight channels and is not evidence for factual case storytelling.
+Public metrics do not expose audience retention, unique viewers, link clicks, qualified leads, or conversions. The analysis makes no claims about those outcomes. The commissioning organization, its specific business scope, and internal documents remain outside the public package. No pilot has been run.
 
 - [YouTube video-resource fields](https://developers.google.com/youtube/data/reference/rest/v3/videos)
 - [YouTube upload-playlist pagination](https://developers.google.com/youtube/data/reference/rest/v3/playlistItems/list)
